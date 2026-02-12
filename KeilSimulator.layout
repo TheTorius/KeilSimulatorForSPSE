@@ -1,0 +1,71 @@
+[
+    {
+        "caretX": 8,
+        "caretY": 9,
+        "filename": "C:/Users/lukas/Documents/projects/KeilSimulator/button.h",
+        "focused": false,
+        "isOpen": false,
+        "left": 0,
+        "top": 75
+    },
+    {
+        "caretX": 27,
+        "caretY": 21,
+        "filename": "C:/Users/lukas/Documents/projects/KeilSimulator/lcd.h",
+        "focused": false,
+        "isOpen": true,
+        "left": 0,
+        "order": 4,
+        "top": 87
+    },
+    {
+        "caretX": 20,
+        "caretY": 9,
+        "filename": "C:/Users/lukas/Documents/projects/KeilSimulator/stm32f4xx_kit.h",
+        "focused": false,
+        "isOpen": true,
+        "left": 0,
+        "order": 1,
+        "top": 0
+    },
+    {
+        "caretX": 2,
+        "caretY": 12,
+        "filename": "C:/Users/lukas/Documents/projects/KeilSimulator/led.h",
+        "focused": false,
+        "isOpen": true,
+        "left": 0,
+        "order": 5,
+        "top": 0
+    },
+    {
+        "caretX": 8,
+        "caretY": 26,
+        "filename": "C:/Users/lukas/Documents/projects/KeilSimulator/main.c",
+        "focused": false,
+        "isOpen": true,
+        "left": 0,
+        "order": 2,
+        "top": 435
+    },
+    {
+        "caretX": 20,
+        "caretY": 12,
+        "filename": "C:/Users/lukas/Documents/projects/KeilSimulator/keypad.h",
+        "focused": false,
+        "isOpen": true,
+        "left": 0,
+        "order": 3,
+        "top": 0
+    },
+    {
+        "caretX": 36,
+        "caretY": 33,
+        "filename": "C:/Users/lukas/Documents/projects/KeilSimulator/raylib.c",
+        "focused": true,
+        "isOpen": true,
+        "left": 0,
+        "order": 0,
+        "top": 696
+    }
+]
