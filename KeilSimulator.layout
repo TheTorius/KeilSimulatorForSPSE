@@ -1,26 +1,27 @@
 [
     {
-        "caretX": 8,
-        "caretY": 9,
+        "caretX": 3,
+        "caretY": 27,
         "filename": "C:/Users/lukas/Documents/projects/KeilSimulator/button.h",
         "focused": false,
-        "isOpen": false,
+        "isOpen": true,
         "left": 0,
+        "order": 6,
         "top": 75
     },
     {
-        "caretX": 27,
-        "caretY": 21,
+        "caretX": 3,
+        "caretY": 27,
         "filename": "C:/Users/lukas/Documents/projects/KeilSimulator/lcd.h",
         "focused": false,
         "isOpen": true,
         "left": 0,
         "order": 4,
-        "top": 87
+        "top": 75
     },
     {
-        "caretX": 20,
-        "caretY": 9,
+        "caretX": 3,
+        "caretY": 24,
         "filename": "C:/Users/lukas/Documents/projects/KeilSimulator/stm32f4xx_kit.h",
         "focused": false,
         "isOpen": true,
@@ -29,8 +30,8 @@
         "top": 0
     },
     {
-        "caretX": 2,
-        "caretY": 12,
+        "caretX": 3,
+        "caretY": 24,
         "filename": "C:/Users/lukas/Documents/projects/KeilSimulator/led.h",
         "focused": false,
         "isOpen": true,
@@ -39,18 +40,18 @@
         "top": 0
     },
     {
-        "caretX": 8,
-        "caretY": 26,
+        "caretX": 11,
+        "caretY": 31,
         "filename": "C:/Users/lukas/Documents/projects/KeilSimulator/main.c",
-        "focused": false,
+        "focused": true,
         "isOpen": true,
         "left": 0,
         "order": 2,
-        "top": 435
+        "top": 225
     },
     {
-        "caretX": 20,
-        "caretY": 12,
+        "caretX": 3,
+        "caretY": 24,
         "filename": "C:/Users/lukas/Documents/projects/KeilSimulator/keypad.h",
         "focused": false,
         "isOpen": true,
@@ -59,13 +60,13 @@
         "top": 0
     },
     {
-        "caretX": 36,
-        "caretY": 33,
+        "caretX": 1,
+        "caretY": 26,
         "filename": "C:/Users/lukas/Documents/projects/KeilSimulator/raylib.c",
-        "focused": true,
+        "focused": false,
         "isOpen": true,
         "left": 0,
         "order": 0,
-        "top": 696
+        "top": 300
     }
 ]

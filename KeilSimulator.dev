@@ -1,7 +1,7 @@
 [Project]
 filename = KeilSimulator.dev
 name = KeilSimulator
-UnitCount = 9
+UnitCount = 7
 Type = 1
 Ver = 3
 Includes = 
@@ -52,7 +52,7 @@ Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
-RealEncoding = ASCII
+RealEncoding = UTF-8
 CompileCpp = 0
 
 
@@ -66,7 +66,7 @@ Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
-RealEncoding = ASCII
+RealEncoding = UTF-8
 
 
 [Unit3]
@@ -78,7 +78,7 @@ Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
-RealEncoding = ASCII
+RealEncoding = UTF-8
 CompileCpp = 0
 
 
@@ -103,19 +103,6 @@ SyncProduct = 1
 
 
 [Unit4]
-FileName = boom.wav
-CompileCpp = 0
-Folder = Others
-Compile = 0
-Link = 0
-Priority = 1000
-OverrideBuildCmd = 0
-BuildCmd = 
-FileEncoding = PROJECT
-RealEncoding = 
-
-
-[Unit5]
 FileName = led.h
 CompileCpp = 0
 Folder = Headers
@@ -125,10 +112,10 @@ Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
-RealEncoding = ASCII
+RealEncoding = UTF-8
 
 
-[Unit6]
+[Unit5]
 FileName = main.c
 CompileCpp = 0
 Folder = Sources
@@ -138,10 +125,10 @@ Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
-RealEncoding = ASCII
+RealEncoding = UTF-8
 
 
-[Unit7]
+[Unit6]
 FileName = keypad.h
 CompileCpp = 0
 Folder = Headers
@@ -151,7 +138,20 @@ Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
-RealEncoding = 
+RealEncoding = UTF-8
+
+
+[Unit7]
+FileName = raylib.c
+CompileCpp = 0
+Folder = Sources
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
 
 
 [Unit8]
