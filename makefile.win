@@ -13,10 +13,10 @@ CXXFLAGS = $(CXXINCS) "-g3" "-pipe" "-Wall" "-D_DEBUG"
 CFLAGS   = $(INCS) "-g3" "-pipe" "-Wall" "-D_DEBUG"
 WINDRESFLAGS = 
 RES      = KeilSimulator_private.res
-OBJ      = main.o raylib.o $(RES)
+OBJ      = raylib.o main.o $(RES)
 BIN      = KeilSimulator.exe
-LINKOBJ  = "main.o" "raylib.o" "KeilSimulator_private.res"
-CLEANOBJ = "main.o" "raylib.o" "KeilSimulator_private.res" "KeilSimulator.exe"
+LINKOBJ  = "raylib.o" "main.o" "KeilSimulator_private.res"
+CLEANOBJ = "raylib.o" "main.o" "KeilSimulator_private.res" "KeilSimulator.exe"
 
 .PHONY: all all-before all-after clean clean-custom
 
@@ -29,11 +29,11 @@ KeilSimulator.exe: $(OBJ)
 
 	$(CC) $(LINKOBJ) -o "KeilSimulator.exe" $(LIBS)
 
-main.o: main.c lcd.h stm32f4xx_kit.h led.h
-	$(CC) -c "main.c" -o "main.o" $(CFLAGS) 
-
 raylib.o: raylib.c
 	$(CC) -c "raylib.c" -o "raylib.o" $(CFLAGS) 
+
+main.o: main.c lcd.h stm32f4xx_kit.h led.h
+	$(CC) -c "main.c" -o "main.o" $(CFLAGS) 
 
 KeilSimulator_private.res: KeilSimulator_private.rc 
 	$(WINDRES) -i "KeilSimulator_private.rc" --input-format=rc -o "KeilSimulator_private.res" -O coff $(WINDRESFLAGS) 
